@@ -1,0 +1,54 @@
+.transCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.logoTransCard {
+  width: 100px;
+  height: 50px;
+  border: 1px solid #aaa;
+  object-fit: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.transCardBenefitiary {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+}
+
+.transCardDate {
+  font-size: 12px;
+  color: #807f7f;
+  width: 100%;
+  gap: 5;
+}
+.transCardAmountContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.transBenefitiaryAndDate {
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.transCardTransType {
+  font-size: 12px;
+  color: #807f7f;
+}
+.transCardAmount {
+  font-size: 16px;
+  color: black;
+}

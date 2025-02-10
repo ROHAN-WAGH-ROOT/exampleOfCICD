@@ -1,0 +1,216 @@
+.bgForSidebar {
+  width: 300px;
+  transition: width 0.2s ease-in-out;
+}
+
+.bgForSidebarClosed {
+  border-right: 1px solid #aaa;
+  width: 75px;
+  transition: width 0.3s ease-in-out;
+}
+
+.titleOfOptions {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #a0a0a0;
+  margin-left: 20px;
+  font-family: "Oswald", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mainLogo {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  justify-content: center;
+  font-family: "Oswald", serif;
+  gap: 10px;
+}
+
+.logoLabel {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  color: #807f7f;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  padding: 10px 15px;
+  margin-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logoLabel:hover {
+  border-left: 3px solid transparent;
+  border-radius: 2px;
+  color: #000000;
+  background-color: #e6e3e36c;
+}
+
+.logoLabelActive {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-left: 3px solid black;
+  padding: 10px 15px;
+  margin-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  background-color: #e6e3e36c;
+  color: #000000;
+  border-radius: 2px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  max-width: 300px;
+  min-width: 30px;
+  width: 280px;
+  border-right: 1px solid #aaa;
+  /* transition: all 0.3s ease; */
+  transition: width 0.3s ease-in-out;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-right: 5px;
+}
+
+.sidebarMenuContainer {
+  width: 100%;
+}
+
+.sidebarOptionContainer,
+.mainDivOfList {
+  width: 100%;
+}
+
+h3 {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cashbackContainer {
+  background-color: #e4e0e096;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 220px;
+  height: 100px;
+  margin-top: 3rem;
+  margin-bottom: 10px;
+  font-family: "Oswald", serif;
+}
+
+.labelCashback {
+  font-size: 16px;
+  width: 100%;
+  padding-left: 20px;
+  color: #807f7f;
+  margin-bottom: 10px;
+}
+
+.doller {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.logoutContainer {
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #868585;
+  cursor: pointer;
+  &:hover {
+    color: blue;
+  }
+}
+
+.logoutLogo {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logoutLogoClosed {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.logoutLabel {
+  font-family: fantasy;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sidebarIcon {
+  position: relative;
+  top: 0px;
+  right: -63px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  border-radius: 100%;
+  background: #fff;
+  &:hover {
+    border-color: #ccc;
+    cursor: pointer;
+  }
+}
+
+.sidebarIconClosed {
+  display: flex;
+  margin: auto;
+  height: 10px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aaa !important;
+  border: none;
+  padding: 15px 0px;
+  margin-top: 10px;
+  margin-bottom: 77px;
+  border-radius: 100%;
+  background: #fff;
+  &:hover {
+    border-color: #ccc;
+    cursor: pointer;
+  }
+}

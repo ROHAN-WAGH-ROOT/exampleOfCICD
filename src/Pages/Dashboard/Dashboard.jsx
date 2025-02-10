@@ -236,7 +236,7 @@ export default function Dashboard() {
     <div className="dashContainer">
       <div className="firstContainer">
         <div className="first">
-          {/* <Bar data={data} options={options} /> */}
+          <Bar data={data} options={options} />
         </div>
         <div className="second">
           <Line data={data} options={options} />

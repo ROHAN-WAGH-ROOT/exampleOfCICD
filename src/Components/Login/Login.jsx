@@ -57,7 +57,7 @@ export default function Login({setIsAuthenticated}) {
         <div className="img">
           <img
             className="actualImage"
-            src="../../../public/pexels-karolina-grabowska-4386476.jpg"
+            src="../../../public/kliton.jpg"
             alt="logo"
             loading="lazy"
           />

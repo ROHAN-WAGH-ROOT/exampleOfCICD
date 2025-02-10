@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
-
+import bill from "../../assets/kliton.jpg";
 export default function Login({ setIsAuthenticated }) {
   const navigate = useNavigate();
   return (
@@ -55,12 +55,7 @@ export default function Login({ setIsAuthenticated }) {
           </form>
         </div>
         <div className="img">
-          <img
-            className="actualImage"
-            src="../../assets/kliton.jpg"
-            alt="logo"
-            loading="lazy"
-          />
+          <img className="actualImage" src={bill} alt="logo" loading="lazy" />
         </div>
       </div>
     </>

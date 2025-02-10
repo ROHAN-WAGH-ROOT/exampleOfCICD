@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
 
-export default function Login({setIsAuthenticated}) {
+export default function Login({ setIsAuthenticated }) {
   const navigate = useNavigate();
   return (
     <>
@@ -57,7 +57,7 @@ export default function Login({setIsAuthenticated}) {
         <div className="img">
           <img
             className="actualImage"
-            src="../../../public/kliton.jpg"
+            src="../../assets/kliton.jpg"
             alt="logo"
             loading="lazy"
           />
